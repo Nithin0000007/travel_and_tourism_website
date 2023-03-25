@@ -1,0 +1,544 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Ginto Nord, sans-serif;
+    list-style: none;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    background-color: #F1F8FF;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    background-image: url(https://www.thetimes.co.uk/travel/wp-content/uploads/sites/6/2022/01/DONE_Sunset-over-finnish-Pyhae-Luosto-Nationalpark_Credit_GettyImages-172412271.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Bvideo {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+.navBar {
+    height: 15%;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navBar>h3:hover {
+    font-size: 21px;
+}
+
+i {
+    cursor: pointer;
+}
+
+svg {
+    position: absolute;
+    left: 110px;
+    cursor: pointer;
+}
+
+#bar {
+    position: absolute;
+    right: 130px;
+}
+
+#heart {
+    position: absolute;
+    right: 185px;
+}
+
+#Mag {
+    position: absolute;
+    right: 235px;
+}
+
+i {
+    font-size: 20px;
+}
+
+h3 {
+    margin-left: 100px;
+    font-size: large;
+}
+
+.h02 {
+    font-size: 21px;
+    border-bottom: 0.4rem solid #BCE3BF;
+    border-width: 4px;
+    cursor: pointer;
+}
+
+.h01:hover {
+    border-bottom: 0.4rem solid #BCE3BF;
+    transition: ease;
+}
+
+.h03:hover {
+    border-bottom: 0.4rem solid #BCE3BF;
+    transition: ease;
+}
+
+.heading {
+    height: 85%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.para {
+    height: 15%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 {
+    height: 220vh;
+    width: 100vw;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content2 {
+    height: 100%;
+    width: 83%;
+    font-family: Ginto Nord, sans-serif;
+}
+
+.para2 {
+    height: 8%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 35px;
+}
+
+.vert1 {
+    height: 100%;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+}
+
+.vert2 {
+    height: 100%;
+    width: 55%;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.con {
+    border-top: 1px solid rgb(153, 153, 153);
+    margin-top: 100px;
+    padding-top: 20px;
+    padding-right: 75px;
+
+}
+
+.picContent {
+    width: 100%;
+    height: 92%;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 75px;
+}
+
+.pic1 {
+    height: 33%;
+    width: 45%;
+    cursor: pointer;
+}
+
+.img1 {
+    height: 80%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 8px 8px 8px 0px;
+}
+
+.img11 {
+    height: 100%;
+    width: 100%;
+    border-radius: 8px 8px 8px 0px;
+    transition: transform ease 0.5s;
+}
+
+.img11:hover {
+    transform: scale(1.1);
+}
+
+.pic1content {
+    height: fit-content;
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.pic2 {
+    height: 60%;
+    width: 45%;
+    cursor: pointer;
+}
+
+.pic3 {
+    height: 63%;
+    width: 45%;
+    margin-top: -360px;
+    cursor: pointer;
+}
+
+.pic4 {
+    height: 35%;
+    width: 45%;
+    margin-top: -29px;
+    cursor: pointer;
+}
+
+.container3 {
+    height: 220vh;
+    width: 100vw;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F1F8FF;
+}
+
+.content3 {
+    height: 100%;
+    width: 83%;
+    font-family: Ginto Nord, sans-serif;
+    padding-top: 25px;
+}
+
+.para3 {
+    height: 8%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.picContent2 {
+    width: 100%;
+    height: 92%;
+    margin-top: 50px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.pic01 {
+    height: 30%;
+    width: 30%;
+    cursor: pointer;
+}
+
+.pic02 {
+    height: 45%;
+    width: 30%;
+    cursor: pointer;
+}
+
+#set {
+    margin-top: -243px;
+}
+#set2{
+    margin-top: -50px;
+}
+
+.container4 {
+    height: 130vh;
+    width: 100vw;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.content4 {
+    height: 100%;
+    width: 83%;
+    font-family: Ginto Nord, sans-serif;
+    padding-top: 25px;
+    overflow: hidden;
+
+}
+
+.pic11 {
+    height: 60%;
+    width: 30%;
+    cursor: pointer;
+}
+
+.picContent3 {
+    width: 500%;
+    height: 92%;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 75px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.img111 {
+    height: 95%;
+    width: 95%;
+    position: relative;
+    z-index: -1;
+}
+
+.scrollpic {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: anime 100s linear 0s infinite;
+    animation-play-state: running;
+    animation-delay: 0s;
+    background-color: #F1F8FF;
+}
+
+@keyframes anime {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+
+
+}
+
+.img1>.imgcon {
+    position: absolute;
+    z-index: 1;
+    top: 500px;
+    left: 50px;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 43px;
+}
+
+.img1 {
+    border-radius: 8px;
+}
+
+.container5 {
+    height: 90vh;
+    width: 100vw;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    background-image:url(imgVid/nature.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content5 {
+    height: 100%;
+    width: 100%;
+    font-family: Ginto Nord, sans-serif;
+    padding-top: 25px;
+    overflow: hidden;
+
+}
+.cenhead{
+    height: 90%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 200px;
+}
+.container6 {
+    height: 120vh;
+    width: 100vw;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F1F8FF;
+}
+
+.content6 {
+    height: 100%;
+    width: 83%;
+    font-family: Ginto Nord, sans-serif;
+    padding-top: 25px;
+    overflow: hidden;
+
+
+}
+.scrollpic2 {
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: anime 80s linear 0s infinite;
+    animation-play-state: running;
+    animation-delay: 0s;
+
+}
+
+.img2 {
+    height: 80%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 8px 8px 8px 0px;
+    cursor: pointer;
+    
+}
+.hname{
+    height:45%;
+    width: 60%;
+    position: relative;
+    z-index: 1;
+    border-radius: 8px 0px 8px 8px ;
+    left: -295px;
+    bottom: -150px;
+    background-color: white;
+ 
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    cursor: pointer;    
+}
+
+.container7 {
+    height: 200vh;
+    width: 100vw;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content7 {
+    height: 100%;
+    width: 83%;
+    font-family: Ginto Nord, sans-serif;
+    padding-top: 25px;
+    overflow: hidden;
+
+}
+
+#set02{
+margin-top: 122px;
+}
+
+.para4 {
+    height: 8%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container8 {
+    height: 100vh;
+    width: 100vw;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content8 {
+    height: 100%;
+    width: 100%;
+    font-family: Ginto Nord, sans-serif;
+    padding-top: 25px;
+    overflow: hidden;
+
+}
+
+.footer{
+    width: 100%;
+    height: 67%;
+    background-color: #F1F8FF;
+    padding-left: 150px;
+    padding-top: 50px;
+    padding-right: 150px;
+    
+}
+.social{
+    position: relative;
+    left: 350px;
+    bottom: 110px;
+}
+.icon>i{
+    margin-right: 20px;
+}
+.floatR{
+    height: 40%;
+    width: 50%;
+    background-color: #DBEEFE;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 8px;
+    position: relative;
+   margin-left: 50%;
+   top: 190px;
+   padding: 50px 50px 50px 50px;
+}
+.u123 li:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+.b123{
+   position: relative;
+   left: -50px;
+   bottom: 100px;
+text-decoration: none;
+list-style: none;
+color: #1D764A;
+font-weight: 1000;
+}
+
+.upIcon2{
+    height: 50px;
+    width: 50px;
+    position: relative;
+  
+}
